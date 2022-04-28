@@ -1,0 +1,32 @@
+* {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.navigation nav span {
+    color: indigo;
+    cursor: pointer; /* sinal da mãozinha de click em link */
+    transition: 300ms; /* controla o tempo de transicao ao acionar hover */
+}
+
+.navigation nav span:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: lightcoral;
+}
+
+#primeiro, .segundo, .navigation {
+    border: 5px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+
+.segundo > p { /* sinal de maior aplica a configuracao somente nas tags filhas diretas */
+    color: green;
+}
+
+.segundo > div {
+    display: block !important;
+}
