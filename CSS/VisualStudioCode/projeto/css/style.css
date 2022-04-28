@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #a09038;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/pexels-jakub-novacek-924824.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+    /*
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    */
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+header div img {
+    width: 25%;
+}
+header ul {
+    display: flex;
+}
+header ul li {
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+}
+.container .name h1 {
+    font-size: 60px;
+}
+.container .name h5 {
+    font-size: 25px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 0 auto;
+    width: 40%;
+}
+.form input {
+    width: 50%;
+}
+.form button {
+    width: 15%;
+}
